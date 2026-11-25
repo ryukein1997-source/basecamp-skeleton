@@ -1,0 +1,1 @@
+{"description":"When a skeleton core file is edited, run the Node test suite so a broken invariant is caught in the same session, not at submission time.","name":"Run skeleton tests on save","then":{"command":"node --test tests/","type":"runCommand"},"version":"1.0.0","when":{"patterns":["skeleton/**/*.js","tests/**/*.js"],"type":"fileEdited"}}
